@@ -1,0 +1,24 @@
+{
+  "name": "website",
+  "version": "1.0.0",
+  "description": "UI template 1",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/a-ad-adi/UI-template-1.git"
+  },
+  "author": "Aditya T.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/a-ad-adi/UI-template-1/issues"
+  },
+  "homepage": "https://github.com/a-ad-adi/UI-template-1#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "ejs": "^2.5.7",
+    "express": "^4.16.2"
+  }
+}
