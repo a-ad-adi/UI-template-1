@@ -2,22 +2,32 @@ body{
     margin: 0px;
     padding: 0px;
     /* background: #333; */
-    background: rgb(29, 31, 35);
+    /* background: rgb(29, 31, 35); */
     color: white;
 }
 
-section{
+header, section{
     margin: 0px;
     padding: 0px;
     min-height: 500px;
 }
-
+footer{
+    margin: 0px;
+    padding: 0px;
+    height: 50px;
+    background: white;
+}
 h1, h2, h3, h4{
     font-family: "Snell Roundhand", cursive;
     margin: auto;
     text-align: center;
 } 
-
+.fa{
+    color: rosybrown;
+}
+section:nth-child(odd){
+    background: rgb(29, 31, 35);
+}
 div{
     margin: auto;
     height: auto;
@@ -45,7 +55,9 @@ div{
     left: -2px;
     top: -59px;
 }
-
+#home{
+    text-transform: uppercase;
+}
 img.header{
     width: 100%;
     height: 100%;
@@ -54,9 +66,10 @@ img.header{
     font-size: 50px;
 }
 .logo{
-    width: auto;
     margin: auto;
-    display: inline-block;
+    float: right;
+    padding-right: 7%;
+    padding-top: 5px;
 }
 .links{
     width: auto;
