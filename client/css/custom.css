@@ -5,34 +5,62 @@ body{
     /* background: rgb(29, 31, 35); */
     color: white;
 }
-
-header, section{
+section{
     margin: 0px;
     padding: 0px;
     min-height: 500px;
+}
+header{
+    height: 700px;
 }
 footer{
     margin: 0px;
     padding: 0px;
     height: 50px;
-    background: white;
+    background: rgb(29, 31, 35);
+}
+.page-header{
+    min-height: 60px;
 }
 h1, h2, h3, h4{
-    font-family: "Snell Roundhand", cursive;
+    /* font-family: "Snell Roundhand", cursive; */
     margin: auto;
     text-align: center;
+    padding: 5px;
+    padding-top: 20px;
+    color: rosybrown;
 } 
+hr{
+    width: 50px;
+    border-width: 3px;
+    border-color: white;
+}
+hr:nth-child(even){
+    border-color: rosybrown;
+}
+pre{
+    overflow: visible;
+    color: rosybrown !important;
+}
+pre:nth-child(even){
+    color: white !important;
+}
+div::after{
+    content: '';
+    clear: both;
+}
+
 .fa{
     color: rosybrown;
 }
 section:nth-child(odd){
     background: rgb(29, 31, 35);
 }
-div{
-    margin: auto;
-    height: auto;
-}
+
 /* Header */
+#name{
+    color: brown!important;
+}
 .navbar-brand{
     text-transform: uppercase;
 }
@@ -49,11 +77,11 @@ div{
     left: -10;
 }
 .letter{
-    font-size: 270px;
+    font-size: 340px;
     text-align: center;
     position: relative;
     left: -2px;
-    top: -59px;
+    top: -160px;
 }
 #home{
     text-transform: uppercase;
@@ -80,9 +108,49 @@ img.header{
 
 #navbar{
     width: auto;
-    margin-right: 100px;
+    float: right;
+}
+/* About-me */
+#about{
+    height: 700px;
 }
 
-div::after{
-    clear: both;
+.content{
+  height: 150px;
+  width: 50%;
+  background-color: transparent;
+  position: relative;
+  margin: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 5px;
+  
+  border: 2px solid grey;
+  border-radius: 5px;
+  //box-shadow: 0.5px .5px 15px grey;
+  text-align: justify;
 }
+.content-right{
+  background: transparent;
+  left: 40%;    
+}
+.contet-left{
+  margin-left: 0px;
+  left: 10%;
+}
+.text-format-white{
+  background: #fff6;
+  width: 10px;
+  height: 10px;
+  padding: 2px;
+  padding-right: 4px;
+  padding-left: 4px;
+  margin: 2px; 
+  box-shadow: 1px 1px 15px grey;
+}
+
+/* Gallary */
+#gallary{
+    height: 650px;
+}
+
